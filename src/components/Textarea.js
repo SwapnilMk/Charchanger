@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import propTypes from 'prop-types';
 
 
-export default function Textarea(props) {
+function Textarea(props) {
   
   const handleUpClick = () => {
     let upperText = text.toUpperCase()
@@ -44,3 +44,5 @@ export default function Textarea(props) {
 Textarea.propTypes = {
   tittle : propTypes.string
 }
+
+export default Textarea
