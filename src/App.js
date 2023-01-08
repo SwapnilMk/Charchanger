@@ -46,7 +46,7 @@ function App() {
   }
   return (
     <BrowserRouter>
-    <Navbar tittle="CharChanger" about="About us" mode={mode} toggleMode={toggleMode} />
+    <Navbar tittle="Text Utils" about="About us" mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert}/>
     <Routes>
         <Route path="/" element={<Textarea tittle="Enter text to analyze"/>} />
